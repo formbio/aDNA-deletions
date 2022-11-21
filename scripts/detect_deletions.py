@@ -19,7 +19,8 @@ parser.add_option("--samples", action="store", type="string", dest="samples",hel
 (options, args) = parser.parse_args()
 
 #store group names into list
-contig_name = (options.depthfile).split(".")[0]
+#contig_name = (options.depthfile).split(".")[0]
+contig_name = (options.depthfile).replace('.depth', '')
 group_list = []
 with open(options.samples) as f1:
     for line in f1:
