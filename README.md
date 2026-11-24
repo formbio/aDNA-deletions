@@ -1,3 +1,6 @@
+> **⚠️ Archived — this repository has moved to [colossal-compsci/aDNA-deletions](https://github.com/colossal-compsci/aDNA-deletions).**
+> This formbio copy is read-only and no longer maintained. Please clone, open issues and send PRs in the new repository.
+
 # aDNA-deletions-scripts
 Scripts used to detect genomic deletions in woolly mammoth genomes (van der Valk et. al 2022, iScience)
 
